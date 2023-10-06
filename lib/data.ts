@@ -1,6 +1,6 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+// import { CgWorkAlt } from "react-icons/cg";
+// import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import NextpixImg from "@/public/Nextpix.png";
 import PokedexImg from "@/public/Pokedex.png";
@@ -65,13 +65,17 @@ export const projectsData = [
     title: "NextPix",
     description:
       "Image Gallery app built using Next.js.",
+    githubLink: "https://github.com/Abhish7k/NextJS-image-gallery",
+    liveLink: "https://nextpix.vercel.app/",
     tags: ["TypeScript", "React", "Next.js", "Tailwind"],
     imageUrl: NextpixImg,
   },
   {
     title: "Pokédex",
     description:
-      "A Pokédex app powered by Next.js. Effortlessly search and discover over 800 Pokémon species with their detailed information.",
+      "A Pokédex app powered by Next.js.",
+    githubLink: "https://github.com/Abhish7k/Pokedex-NextJS",
+    liveLink: "https://next-pokedex-app.vercel.app/",
     tags: ["TypeScript", "React", "Next.js", "Tailwind"],
     imageUrl: PokedexImg,
   },
@@ -79,6 +83,8 @@ export const projectsData = [
     title: "Todo App",
     description:
       "A Modern Todo App build using React.",
+    githubLink: "https://github.com/Abhish7k/React-Todo",
+    liveLink: "https://justdoitlilbro.netlify.app/",
     tags: ["Typescript", "React", "Tailwind"],
     imageUrl: TodoAppImg,
   },

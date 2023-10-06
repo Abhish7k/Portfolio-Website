@@ -4,12 +4,17 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
+import { FaExternalLinkSquareAlt } from "react-icons/fa";
+
 
 type ProjectProps = (typeof projectsData)[number];
 
 export default function Project({
   title,
   description,
+  githubLink,
+  liveLink,
   tags,
   imageUrl,
 }: ProjectProps) {
@@ -36,6 +41,24 @@ export default function Project({
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
+          <div className="mt-4 flex" >
+            <a
+              className="bg-white p-2 m-1 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.1] hover:scale-[1.1] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+              href={githubLink}
+              target="_blank"
+              >
+              <FaGithub />
+            </a>
+
+            <a
+              className="bg-white p-2 m-1 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.1] hover:scale-[1.1] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+              href={liveLink}
+              target="_blank"
+              >
+              <FaExternalLinkSquareAlt />
+            </a>
+          </div>
+
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li

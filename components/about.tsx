@@ -21,7 +21,7 @@ export default function About() {
 
       <p className="mb-3">
         As a dedicated{" "}
-        <span className="font-bold">Full-stack developer</span> with 
+        <span className="font-bold">Full-stack Developer</span>{" "}
         with a strong foundation in both frontend and backend technologies,
         I specialize in a stack that includes{" "}
         <span className="font-medium">Javascript, React and Next.js</span>{" "}
