@@ -62,14 +62,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        {/* <span className="font-bold">Hey, I'm Abhishek.</span> I'm a{" "}
-        <span className="font-bold">Full-stack developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. */}
         <span className="font-bold">Hey, I'm Abhishek.</span> I'm a{" "}
-        <span className="font-bold">Full-stack developer</span> specialized in
-        the <span className="font-bold">MERN</span> Stack. I enjoy building{" "}
-        <span className="italic">sites & apps.</span>
+        <span className="font-bold">Full-Stack Developer</span> specialized in
+        the <span className="font-bold">MERN</span> Stack and I build things for
+        the <span className="italic">web.</span>
       </motion.h1>
 
       <motion.div
@@ -116,7 +112,6 @@ export default function Intro() {
         >
           <FaGithubSquare />
         </a>
-        
       </motion.div>
     </section>
   );
