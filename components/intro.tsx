@@ -64,8 +64,8 @@ export default function Intro() {
       >
         <span className="font-bold">Hey, I'm Abhishek.</span> I'm a{" "}
         <span className="font-bold">Full-Stack Developer</span> specialized in
-        the <span className="font-bold">MERN</span> Stack. I build things for the{" "}
-        <span className="italic">web.</span>
+        the <span className="font-bold">MERN</span> Stack and I build things for
+        the <span className="italic">web.</span>
       </motion.h1>
 
       <motion.div
@@ -112,7 +112,6 @@ export default function Intro() {
         >
           <FaGithubSquare />
         </a>
-        
       </motion.div>
     </section>
   );
