@@ -45,8 +45,7 @@ export const experiencesData = [
   {
     title: "High School",
     location: "Modern Education Society's Nowrosjee Wadia College, Pune, IN",
-    description:
-      "HSC Science",
+    description: "HSC Science",
     icon: React.createElement(LuGraduationCap),
     date: "2018 - 2020",
   },
@@ -63,29 +62,26 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "NextPix",
-    description:
-      "Image Gallery app built using Next.js.",
+    description: "Image Gallery app built using Next.js.",
     githubLink: "https://github.com/Abhish7k/NextJS-image-gallery",
     liveLink: "https://nextpix.vercel.app/",
-    tags: ["TypeScript", "React", "Next.js", "Tailwind"],
+    tags: ["TypeScript", "Nextjs", "Tailwind"],
     imageUrl: NextpixImg,
   },
   {
     title: "Pokédex",
-    description:
-      "A Pokédex app powered by Next.js.",
+    description: "A Pokédex app powered by Next.js.",
     githubLink: "https://github.com/Abhish7k/Pokedex-NextJS",
     liveLink: "https://next-pokedex-app.vercel.app/",
-    tags: ["TypeScript", "React", "Next.js", "Tailwind"],
+    tags: ["TypeScript", "Nextjs", "Tailwind"],
     imageUrl: PokedexImg,
   },
   {
     title: "Todo App",
-    description:
-      "A Modern Todo App build using React.",
+    description: "A Modern Todo App build using React.",
     githubLink: "https://github.com/Abhish7k/React-Todo",
     liveLink: "https://justdoitlilbro.netlify.app/",
-    tags: ["Typescript", "React", "Tailwind"],
+    tags: ["React", "Tailwind"],
     imageUrl: TodoAppImg,
   },
 ] as const;
@@ -95,8 +91,6 @@ export const skillsData = [
   "Java",
   "JavaScript",
   "TypeScript",
-  "Data Structures",
-  "Algorithms",
   "HTML",
   "CSS",
   "Tailwind",
@@ -105,11 +99,10 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Express.js",
-  "REST Api",
-  "PostgreSQL",
   "MongoDB",
-  "Prisma",
-  "Redis",
+  "PostgreSQL",
+  // "Prisma",
+  // "Redis",
   "Git",
   "GitHub",
   "Docker",
