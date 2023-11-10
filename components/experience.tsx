@@ -12,17 +12,24 @@ import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
 import { LuGraduationCap } from "react-icons/lu";
 
-export default function Experience(){
+export default function Experience() {
   const { ref } = useSectionInView("Education");
   const { theme } = useTheme();
-  
+
   return (
-    <section id="experience" ref={ref} className="scroll-mt-28 mt-28 mb-28 sm:mb-40">
+    <section
+      id="experience"
+      ref={ref}
+      className="scroll-mt-28 mt-28 mb-28 sm:mb-40"
+    >
       <SectionHeading>Education</SectionHeading>
-      <VerticalTimeline lineColor="">
+      {/* @ts-expect-error */}
+      <VerticalTimeline lineColor="" animate={true}>
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
+            {/* @ts-expect-error */}
             <VerticalTimelineElement
+              visible={true}
               contentStyle={{
                 background:
                   theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
@@ -38,7 +45,7 @@ export default function Experience(){
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
               date={item.date}
-              icon={<LuGraduationCap/>}
+              icon={<LuGraduationCap />}
               iconStyle={{
                 background:
                   theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
