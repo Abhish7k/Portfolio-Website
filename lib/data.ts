@@ -5,7 +5,6 @@ import { LuGraduationCap } from "react-icons/lu";
 import NextpixImg from "@/public/Nextpix.png";
 import PokedexImg from "@/public/Pokedex.png";
 import TodoAppImg from "@/public/TodoApp.png";
-import SnkrsImg from "@/public/Snkrs.png";
 
 export const links = [
   {
@@ -61,14 +60,6 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "SNKRS",
-    description: "Ecommerce Shoes Store.",
-    githubLink: "https://github.com/Abhish7k/snkrs-client",
-    liveLink: "https://shopsnkrs.vercel.app/",
-    tags: ["Nextjs", "Redux", "Tailwind", "Strapi", "Stripe"],
-    imageUrl: SnkrsImg,
-  },
   {
     title: "NextPix",
     description: "Image Gallery app built using Next.js.",
