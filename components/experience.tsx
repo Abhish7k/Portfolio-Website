@@ -10,10 +10,9 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
-import { LuGraduationCap } from "react-icons/lu";
 
 export default function Experience() {
-  const { ref } = useSectionInView("Education");
+  const { ref } = useSectionInView("Experience");
   const { theme } = useTheme();
 
   return (
@@ -22,7 +21,7 @@ export default function Experience() {
       ref={ref}
       className="scroll-mt-28 mt-28 mb-28 sm:mb-40"
     >
-      <SectionHeading>Education</SectionHeading>
+      <SectionHeading>My Experience</SectionHeading>
       {/* @ts-expect-error */}
       <VerticalTimeline lineColor="" animate={true}>
         {experiencesData.map((item, index) => (
@@ -45,7 +44,8 @@ export default function Experience() {
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
               date={item.date}
-              icon={<LuGraduationCap />}
+              // @ts-expect-error
+              icon={item.icon}
               iconStyle={{
                 background:
                   theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",

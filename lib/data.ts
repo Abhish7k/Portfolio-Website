@@ -1,7 +1,6 @@
 import React from "react";
-// import { CgWorkAlt } from "react-icons/cg";
-// import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { CgWorkAlt } from "react-icons/cg";
+import { FaGithub } from "react-icons/fa";
 import NextpixImg from "@/public/Nextpix.png";
 import PokedexImg from "@/public/Pokedex.png";
 import TodoAppImg from "@/public/TodoApp.png";
@@ -25,7 +24,7 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Education",
+    name: "Experience",
     hash: "#experience",
   },
   {
@@ -36,28 +35,21 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "B.E. Computer Science",
-    location: "Savitribai Phule Pune University, Pune, IN",
+    title: "Frontend Developer Intern",
+    location: "Yhills Edutech, Remote",
     description:
-      "CGPA: 7.0, Coursework: Object Oriented Programming, Database Management System, Computer Networks, Operating Systems.",
-    icon: React.createElement(LuGraduationCap),
-    date: "Aug 2020 - July 2024",
+      "I actively contributed to the development and enhancement of user interfaces using HTML, CSS, JavaScript and React.js. My role involved implementing dynamic components, optimizing performance, and collaborating on the seamless integration of frontend components with backend systems.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Feb 2023 - Apr 2023",
   },
   {
-    title: "High School",
-    location: "Modern Education Society's Nowrosjee Wadia College, Pune, IN",
-    description: "HSC Science",
-    icon: React.createElement(LuGraduationCap),
-    date: "2018 - 2020",
+    title: "Open Source Contributor",
+    location: "Frontend Freaks",
+    description:
+      "Contributed to the Frontend Freaks official website, successfully merging two pull requests. Fostered a collaborative environment by providing constructive feedback and assisting fellow contributors.",
+    icon: React.createElement(FaGithub),
+    date: "",
   },
-  // {
-  //   title: "Full-Stack Developer",
-  //   location: "",
-  //   description:
-  //     "I'm now a full-stack developer.",
-  //   icon: React.createElement(FaReact),
-  //   date: "2023 - present",
-  // },
 ] as const;
 
 export const projectsData = [
