@@ -5,6 +5,7 @@ import NextpixImg from "@/public/Nextpix.png";
 import PokedexImg from "@/public/Pokedex.png";
 import TodoAppImg from "@/public/TodoApp.png";
 import SnkrsImg from "@/public/Snkrs.png";
+import MovixImg from "@/public/Movix.png";
 
 export const links = [
   {
@@ -54,12 +55,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "SNKRS",
+    title: "Snkrs",
     description: "Ecommerce Shoes Store.",
     githubLink: "https://github.com/Abhish7k/snkrs-client",
     liveLink: "https://shopsnkrs.vercel.app/",
     tags: ["Nextjs", "Redux", "Tailwind", "Strapi", "Stripe"],
     imageUrl: SnkrsImg,
+  },
+  {
+    title: "Movix",
+    description: "Interactive platform to explore Movies and TV Shows.",
+    githubLink: "https://github.com/Abhish7k/Movix",
+    liveLink: "https://movixhub.vercel.app/",
+    tags: ["Reactjs", "Sass", "Redux", "Axios", "TMDB API"],
+    imageUrl: MovixImg,
   },
   {
     title: "NextPix",

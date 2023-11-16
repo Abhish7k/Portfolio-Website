@@ -37,7 +37,7 @@ export default function About() {
         structures and algorithms, and fueled by a passion for problem solving,
         I regularly solve problems on coding platforms like{" "}
         <span className="font-medium">
-          <a href="https://leetcode.com/Abhish7k/" target="_blank">
+          <a href="https://leetcode.com/zimablu/" target="_blank">
             LeetCode
           </a>
         </span>{" "}
