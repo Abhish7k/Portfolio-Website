@@ -88,7 +88,7 @@ export const projectsData = [
   },
   {
     title: "Todo App",
-    description: "A Modern Todo App build using React.",
+    description: "A Modern Todo App built using React.",
     githubLink: "https://github.com/Abhish7k/React-Todo",
     liveLink: "https://justdoitlilbro.netlify.app/",
     tags: ["React", "Tailwind"],
@@ -111,7 +111,7 @@ export const skillsData = [
   "Express.js",
   "MongoDB",
   "PostgreSQL",
-  // "Prisma",
+  "Prisma",
   // "Redis",
   "Git",
   "GitHub",
